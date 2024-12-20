@@ -187,7 +187,6 @@ def create_teacher():
     name = input("Enter teacher name: ").strip()
     gender = input("Enter teacher gender: ").strip()
     subject = input("Enter teacher subject: ").strip()
-    # email = input("Enter teacher email: ").strip()
     department_id = int(input("Enter department ID: "))
     teacher = Teacher(name=name, gender=gender, subject=subject,  department_id=department_id)
     session.add(teacher)
@@ -202,13 +201,11 @@ def update_teacher():
         name = input(f"Enter new name (current: {teacher.name}): ").strip() or None
         gender = input(f"Enter new gender (current: {teacher.gender}): ").strip() or None
         subject = input(f"Enter new subject (current: {teacher.subject}): ").strip() or None
-        # email = input(f"Enter new email (current: {teacher.email}): ").strip() or None
         department_id = input(f"Enter new department ID (current: {teacher.department_id}): ").strip() or None
 
         if name: teacher.name = name
         if gender: teacher.gender = gender
         if subject: teacher.subject = subject
-        # if email: teacher.email = email
         if department_id: teacher.department_id = int(department_id)
 
         session.commit()
