@@ -21,6 +21,11 @@ VSCODE had some issue with virtual environment
 2. SQLITE
 3. PYTHON
 
+## slide link
+link: https://docs.google.com/presentation/d/18kkj02Ya2GKQyIa-Hi6sy8mhc9jXk00ig15HtNRUG3Q/edit?usp=sharing
+
+## Demo link
+link: https://drive.google.com/file/d/1P6AgQN22SEwdaoGoMYW4rKZstx8KKSwA/view?usp=sharing
 
 ## Future plans 
 Add react for the fronted 
